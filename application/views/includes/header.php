@@ -22,6 +22,13 @@ echo link_tag('assets/adminlte/css/skins/_all-skins.min.css');
 
 </head>
 <!-- <body class="hold-transition skin-blue-light sidebar-collapse sidebar-mini"> -->
+<style>
+  .skin-red-light .sidebar-menu>li:hover>a,
+  .skin-red-light .sidebar-menu>li.active>a {
+    color: #000;
+    background: #cac6c6;
+  }
+</style>
 
 <body class="hold-transition skin-red-light sidebar-mini">
   <div class="wrapper">
